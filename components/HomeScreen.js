@@ -19,7 +19,6 @@ Feather.loadFont();
 MaterialCommunityIcons.loadFont();
 
 const HomeScreen = ({navigation}) => {
-  console.log('demooooopopo');
   const renderCategoriesItem = ({item}) => {
     return (
       <TouchableOpacity
